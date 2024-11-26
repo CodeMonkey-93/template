@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import WebSocketClient from "~/components/WebSocket.client.vue";
+</script>
+
 <template>
-  <div></div>
+  <div>
+    <WebSocketClient />
+  </div>
 </template>
